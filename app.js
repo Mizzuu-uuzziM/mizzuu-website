@@ -1,4 +1,4 @@
-lvar w = c.width = window.innerWidth,
+  var w = c.width = window.innerWidth,
   h = c.height = window.innerHeight,
   ctx = c.getContext('2d'),
 
@@ -6,7 +6,7 @@ lvar w = c.width = window.innerWidth,
   hh = h / 2,
 
   opts = {
-    strings: ['HAPPY', 'BIRTHDAYY', 'TO YOU'],
+    strings: ['HAPPY', 'BIRTHDAYY', 'FOR YOU'],
     charSize: 30,
     charSpacing: 35,
     lineHeight: 40,
